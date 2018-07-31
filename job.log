@@ -1,0 +1,22 @@
+JobName:test123
+JobParameter:
+ShardingItem:1
+ShardingParameter:B
+ShardingTotalCount:2
+TaskId:test123@-@0,1@-@READY@-@192.168.1.100@-@2200
+---------------------------------------
+JobParameter:
+ShardingItem:0
+ShardingParameter:A
+ShardingTotalCount:2
+TaskId:test123@-@0,1@-@READY@-@192.168.1.100@-@2200
+---------------------------------------
+[2m2018-07-30 20:07:45.041[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ffe63b9: startup date [Mon Jul 30 20:06:18 CST 2018]; root of context hierarchy
+[2m2018-07-30 20:07:45.043[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[wn-Hook test123][0;39m [36mc.d.d.j.l.i.s.JobShutdownHookPlugin     [0;39m [2m:[0;39m Shutting down Quartz...
+[2m2018-07-30 20:07:45.043[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[wn-Hook test123][0;39m [36morg.quartz.core.QuartzScheduler         [0;39m [2m:[0;39m Scheduler test123_$_NON_CLUSTERED shutting down.
+[2m2018-07-30 20:07:45.043[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[wn-Hook test123][0;39m [36morg.quartz.core.QuartzScheduler         [0;39m [2m:[0;39m Scheduler test123_$_NON_CLUSTERED paused.
+[2m2018-07-30 20:07:45.047[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Unregistering JMX-exposed beans on shutdown
+[2m2018-07-30 20:07:45.523[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[wn-Hook test123][0;39m [36morg.quartz.core.QuartzScheduler         [0;39m [2m:[0;39m Scheduler test123_$_NON_CLUSTERED shutdown complete.
+[2m2018-07-30 20:07:45.555[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[tor-Framework-0][0;39m [36mo.a.c.f.imps.CuratorFrameworkImpl       [0;39m [2m:[0;39m backgroundOperationsLoop exiting
+[2m2018-07-30 20:07:45.558[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[      Thread-12][0;39m [36morg.apache.zookeeper.ZooKeeper          [0;39m [2m:[0;39m Session: 0x100014d90210005 closed
+[2m2018-07-30 20:07:45.558[0;39m [32m INFO[0;39m [35m2200[0;39m [2m---[0;39m [2m[ain-EventThread][0;39m [36morg.apache.zookeeper.ClientCnxn         [0;39m [2m:[0;39m EventThread shut down
